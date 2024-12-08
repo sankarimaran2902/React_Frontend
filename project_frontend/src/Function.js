@@ -32,7 +32,7 @@ function Unorderlist()
             <li>Briyani</li>
             <li>Chicken Fried Rice</li>
             <li>Tandoori</li>
-            <li>Idiyappam</li>
+            <li>Grill</li>
             <li>Noodles</li>
         </ul>
     )

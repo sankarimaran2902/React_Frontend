@@ -1,6 +1,7 @@
 import List,{ Orderlist } from "./Function";
 import { Unorderlist } from "./Function";
 import {Tables} from "./Table";
+import {Hook} from "./UseState";
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
     <Orderlist/>
     <Unorderlist/>
     <Tables/>
+    <Hook/>
     </>
   )
 }
