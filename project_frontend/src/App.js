@@ -2,6 +2,7 @@ import List,{ Orderlist } from "./Function";
 import { Unorderlist } from "./Function";
 import { Parameter } from "./Parameter";
 import {Tables} from "./Table";
+import { Travelsname } from "./Tablecss";
 import {Hook} from "./UseState";
 import { Hook1 } from "./UseState1";
 
@@ -15,6 +16,7 @@ function App() {
     <Hook/> 
     <Hook1/>
     <Parameter where="./Download.jpeg"  length="200px" breadth="200px" />
+    <Travelsname/>
     </>
   )
 }
