@@ -1,30 +1,46 @@
 import { BootstrapExecution } from "./Bootstrap";
-import Carouselexecution1 from "./Carousel";
-import List,{ Orderlist } from "./Function";
-import { Unorderlist } from "./Function";
-import { Parameter } from "./Parameter";
-import {Tables} from "./Table";
+import List, { Orderlist, Unorderlist } from "./Function";
+import { Parameters } from "./Parameter";
 import { Travelsname } from "./Tablecss";
-import {Hook} from "./UseState";
+import { TernaryOperator } from "./TernaryOperator";
+import { Hook } from "./UseState";
 import { Hook1 } from "./UseState1";
+import { Homepage } from "./WebPage";
+import { Tables } from "./Table";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import React from "react";
 
 
-function App() {
-  return (
-    <>
-    {/* <List/>
-    <Orderlist/>
-    <Unorderlist/>
-    <Tables/>
-    <Hook/> 
-    <Hook1/>
-    <Parameter where="./Download.jpeg"  length="200px" breadth="200px" />
-    <Travelsname/>
-    <BootstrapExecution/>
-    */
-    <Carouselexecution1/> }
-    </>
-  )
+function App()
+{
+    return(
+        <>
+        {/* <List/>
+        <Orderlist/>
+        <Unorderlist/> */}
+
+        {/* <Hook/> */}
+        {/* <Hook1/> */}
+        
+        {/* <Parameters where="./Download.jpeg" length="200px" breadth="200px"/> */}
+
+        {/* <Travelsname/> */}
+
+        {/* <BootstrapExecution/> */}
+
+        {/* <TernaryOperator/> */}
+
+        
+        {/* <BrowserRouter>
+        <Routes>
+            <Route path="/read"  element={<Tables/>}/>
+            <Route path="/create"  element={<Travelsname/>}/>
+         </Routes>   
+        </BrowserRouter> */}
+        
+        <Homepage/>
+        </>
+    );
 }
 
 export default App;

@@ -1,7 +1,7 @@
 import './Myfile.css'
 export var Travelsname=()=>
 {
-    const cssfile={backgroundcolor:'yellow'}
+    const cssfile={backgroundColor:'yellow'}
 
     return(
         <>
@@ -38,7 +38,7 @@ export var Travelsname=()=>
             </tbody>
         </table>
         </>
-    )
-}
+    );
+};
                                                           
                                                            
