@@ -9,6 +9,7 @@ import { Homepage } from "./WebPage";
 import { Tables } from "./Table";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import React from "react";
+import { Employeedetails } from "./TemporaryValue";
 
 
 function App()
@@ -38,7 +39,8 @@ function App()
          </Routes>   
         </BrowserRouter> */}
         
-        <Homepage/>
+        {/* <Homepage/> */}
+        <Employeedetails/>
         </>
     );
 }
