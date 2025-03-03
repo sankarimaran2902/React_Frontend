@@ -6,7 +6,7 @@ export let TernaryOperator=()=>
     const[wish,setWish]=useState("");
     const[display,setDisplay]=useState("");
     const[changes,setChanges]=useState({color:'red',backgroundColor:'black'});
-
+              
     const gettingvalues=(temp)=>
     {
         setWish(temp.target.value);

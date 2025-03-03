@@ -1,4 +1,7 @@
+import 'bootstrap/dist/css/bootstrap.min.css'
 import {useState} from "react"
+import { create } from './TemporyValues'
+
 export const RegistrationForm=()=>
 {
     const[userdetail,setUserdetail]=useState({
@@ -17,7 +20,8 @@ export const RegistrationForm=()=>
         setUserdetail((adding)=>
         {
             return{
-                adding,[name]:value
+                ...adding,
+                [name]:value
             }
         })
     }
@@ -28,13 +32,13 @@ export const RegistrationForm=()=>
     }
     const cancel=()=>
     {
-        alert("Rejected......")
+        alert("Rejected......!")
     }
     return(
         <>
         <div className="container-fluid mt-3">
             <h3 className="text-center text-info text-uppercase text-decoration-underline">New Employee Registration</h3>
-            <div className="row justify-content-center" style={{backgroundColor:'palegoldenrod'}}>
+            <div className="row justify-content-center" style={{backgroundColor:'palevioletred'}}>
                 <div className="col-lg-7 col-md-10 col-sm-12">
                   
                   <div className="form-group mt-2">
@@ -42,7 +46,9 @@ export const RegistrationForm=()=>
                       <input className="form-control"
                       name="empid"
                       placeholder="Enter Employee ID"
-                      onChange={tracking} value={userdetail.empid}/>
+                      onChange={tracking} 
+                      value={userdetail.empid}
+                      />
                   </div>
 
                   <div className="form-group mt-2">
@@ -50,7 +56,8 @@ export const RegistrationForm=()=>
                     <input className="form-control"
                      name="empname"
                      placeholder="Enter Employee Name"
-                     onChange={tracking} value={userdetail.empname}
+                     onChange={tracking}
+                     value={userdetail.empname}
                     />
                   </div>
 
@@ -68,7 +75,8 @@ export const RegistrationForm=()=>
                     <input className="form-control"
                     name="emppassword"
                     placeholder="Enter Employee Password"
-                    onChange={tracking} value={userdetail.emppassword}
+                    onChange={tracking}
+                    value={userdetail.emppassword}
                     />
                   </div>
 

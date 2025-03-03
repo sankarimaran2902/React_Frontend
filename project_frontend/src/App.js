@@ -9,8 +9,8 @@ import { Homepage } from "./WebPage";
 import { Tables } from "./Table";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import React from "react";
-import { Employeedetails } from "./TemporaryValue";
-
+import Carouselexecution1 from "./Carousel";
+import { RegistrationForm } from "./EmployeeRegistration";
 
 function App()
 {
@@ -40,7 +40,9 @@ function App()
         </BrowserRouter> */}
         
         {/* <Homepage/> */}
-        <Employeedetails/>
+        {/* <Carouselexecution1/> */}
+        <RegistrationForm/>
+   
         </>
     );
 }

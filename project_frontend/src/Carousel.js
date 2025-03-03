@@ -8,10 +8,10 @@ const Carouselexecution1=()=>
             <Carousel.Item>
                 <img
                  className="d-block w-100"
-                 src="/.Tom.jpeg"
+                 src="./Tom.jpeg"
                  alt="Login page Example"
-                 width="50"
-                 height="50"
+                 width="100"
+                 height="200"
                 />
 
                 <Carousel.Caption className="text-primary">

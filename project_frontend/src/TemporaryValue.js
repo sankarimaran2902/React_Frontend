@@ -49,7 +49,7 @@ export const fetchexact=(name)=>
 {
     const temp=Employeedetails.filter((element)=>
     {
-        return element.empname==name;
+        return element.empname===name;
     })
     return temp[0];
 }
@@ -76,6 +76,6 @@ export const deleting=(index)=>
         return Employeedetails;
     }
     else{
-        alert("Thank you")
+        alert("Value not deleted")
     }
 }
